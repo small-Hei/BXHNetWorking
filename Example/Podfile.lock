@@ -1,0 +1,16 @@
+PODS:
+  - BXHNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - BXHNetWorking (from `../`)
+
+EXTERNAL SOURCES:
+  BXHNetWorking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BXHNetWorking: 693584822417187715488cfc39537e35e52baae5
+
+PODFILE CHECKSUM: 2c7549b0adfd496fdbe7957c14d7baa92891f8d5
+
+COCOAPODS: 1.9.3
