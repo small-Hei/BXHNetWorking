@@ -1,9 +1,9 @@
 {
   "name": "BXHNetWorking",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of BXHNetWorking.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/17602102652@163.com/BXHNetWorking",
+  "homepage": "https://github.com/small-Hei/BXHNetWorking",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "17602102652@163.com": "baishuang@yit.com"
   },
   "source": {
-    "git": "https://github.com/17602102652@163.com/BXHNetWorking.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/small-Hei/BXHNetWorking.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BXHNetWorking/Classes/**/*"
+  "source_files": "BXHNetWorking/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

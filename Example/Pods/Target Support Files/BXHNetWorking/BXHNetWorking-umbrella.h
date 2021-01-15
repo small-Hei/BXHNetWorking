@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "BXHHTTPRequestConfig.h"
+#import "BXHHTTPResponseSerializer.h"
+#import "BXHHTTPSessionManager.h"
 
 FOUNDATION_EXPORT double BXHNetWorkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char BXHNetWorkingVersionString[];

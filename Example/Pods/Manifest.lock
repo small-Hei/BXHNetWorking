@@ -1,15 +1,36 @@
 PODS:
-  - BXHNetWorking (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BXHNetWorking (0.0.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - BXHNetWorking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   BXHNetWorking:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BXHNetWorking: 693584822417187715488cfc39537e35e52baae5
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BXHNetWorking: 177d54f9fe947d7ff9e0f9f4427788c84f518344
 
 PODFILE CHECKSUM: 2c7549b0adfd496fdbe7957c14d7baa92891f8d5
 
